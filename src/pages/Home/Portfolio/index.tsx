@@ -28,7 +28,7 @@ export const Portfolio: React.FC = () => {
         mb="1rem"
         fontSize={["0.8rem", "1rem"]}
       >
-        {lenguage ? "Alguns dos meus melhores projetos que trabalhei nos últimos meses. Alguns deles são desenvolvidos e projetados por mim, e outros são apenas o código :)" : "Some of my best projects I've worked on in the last few months. Some of them are developed and designed by me, and others are just code :)"}
+        {lenguage ? "Abaixo algumas informações importantes. Estão também alguns dos meus melhores projetos que trabalhei nos últimos meses. Alguns deles são desenvolvidos e projetados por mim, e outros são apenas o código :)" : "Below is some important information. There are also some of my best projects I've worked on in recent months. Some of them are dedicated and are just the code :)"}
       </Text>
 
       <MyTab />
