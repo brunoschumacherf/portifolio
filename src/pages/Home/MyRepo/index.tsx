@@ -1,8 +1,9 @@
 import React from 'react';
-
+import { useLenguage } from '../../../hooks/useLenguage';
 import { Flex, Heading, Img, SimpleGrid } from '@chakra-ui/react';
 
 export const MyRepo: React.FC = () => {
+  const { lenguage } = useLenguage();
   return (
     <Flex
       id="repostats"
@@ -13,7 +14,7 @@ export const MyRepo: React.FC = () => {
         fontSize={['2rem' , '3rem']}
         mb="1rem" 
       >
-        Repository Stats
+        {lenguage ? "Github Status" : "Repository Stats"}
       </Heading>
 
       <SimpleGrid
